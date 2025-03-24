@@ -1,0 +1,60 @@
+﻿<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">BlazorApp1</a>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="MostActiveDoors">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> MostActiveDoors
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="MostActiveUsers">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> MostActiveUsers
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="DailyActivity">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> DailyActivity
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="MostActiveDays">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> MostActiveDays
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="UniqueDailyEntries">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> UniqueDailyEntries
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="LongestTimesOfInActivity">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> LongestTimesOfInActivity
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="AbnormalEntries">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> AbnormalEntries
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="UploadFile">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> UploadFile
+            </NavLink>
+        </div>
+    </nav>
+</div>
+
