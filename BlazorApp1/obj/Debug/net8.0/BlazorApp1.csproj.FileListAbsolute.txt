@@ -27,3 +27,33 @@ c:\Users\CPL10\OneDrive\Desktop\capstone school work\OG&E website\BlazorApp1\obj
 c:\Users\CPL10\OneDrive\Desktop\capstone school work\OG&E website\BlazorApp1\obj\Debug\net8.0\BlazorApp1.pdb
 c:\Users\CPL10\OneDrive\Desktop\capstone school work\OG&E website\BlazorApp1\obj\Debug\net8.0\BlazorApp1.genruntimeconfig.cache
 c:\Users\CPL10\OneDrive\Desktop\capstone school work\OG&E website\BlazorApp1\obj\Debug\net8.0\ref\BlazorApp1.dll
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\bin\Debug\net8.0\appsettings.Development.json
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\bin\Debug\net8.0\appsettings.json
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\bin\Debug\net8.0\BlazorApp1.staticwebassets.runtime.json
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\bin\Debug\net8.0\BlazorApp1.exe
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\bin\Debug\net8.0\BlazorApp1.deps.json
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\bin\Debug\net8.0\BlazorApp1.runtimeconfig.json
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\bin\Debug\net8.0\BlazorApp1.dll
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\bin\Debug\net8.0\BlazorApp1.pdb
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\BlazorApp1.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\BlazorApp1.AssemblyInfoInputs.cache
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\BlazorApp1.AssemblyInfo.cs
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\BlazorApp1.csproj.CoreCompileInputs.cache
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\BlazorApp1.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\BlazorApp1.sourcelink.json
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\staticwebassets.build.json
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\staticwebassets.development.json
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\staticwebassets\msbuild.BlazorApp1.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\staticwebassets\msbuild.build.BlazorApp1.props
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BlazorApp1.props
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BlazorApp1.props
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\staticwebassets.pack.json
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\scopedcss\bundle\BlazorApp1.styles.css
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\scopedcss\projectbundle\BlazorApp1.bundle.scp.css
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\BlazorApp1.dll
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\refint\BlazorApp1.dll
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\BlazorApp1.pdb
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\BlazorApp1.genruntimeconfig.cache
+c:\Users\cl1103122\Desktop\OG&E project\CapStoneWebstie\BlazorApp1\obj\Debug\net8.0\ref\BlazorApp1.dll
