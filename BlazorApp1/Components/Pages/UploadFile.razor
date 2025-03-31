@@ -1,5 +1,6 @@
 @page "/UploadFile"
 @rendermode InteractiveServer
+
 <PageTitle>Blazor Server File Upload</PageTitle>
 
 <h1>Blazor Server File Upload</h1>
@@ -27,6 +28,8 @@
     public string FileType { get; set; } = "";
     public DateTimeOffset LastModified { get; set; }
     public string ErrorMessage { get; set; } = "";
+    
+    List<ReaderEvent> readerlist = new List<ReaderEvent>();
 
     const int MAX_FILESIZE = 5000 * 1024; // 2 MB
 
@@ -53,6 +56,7 @@
                 var destinationStream = new FileStream(targetFilePath, FileMode.Create);
                 await fileStream.CopyToAsync(destinationStream);
                 destinationStream.Close();
+                loadData(FileName);
             }
             catch (Exception exception)
             {
@@ -61,10 +65,38 @@
         }
     }
 
+    public void loadData(string name)
+    {
+         try
+            {
+                
+                string line;
+                StreamReader sr = new StreamReader(name);
+                line = sr.ReadLine();
+                while(line != null)
+                {
+                    ReaderEvent re = new ReaderEvent(line);
+                    readerlist.Add(re);
+                    line = sr.ReadLine();
+                }
+                sr.Close();
+            }
+            catch
+            {
+
+            }
+    }
+
     public class ReaderEvent
     {
-        List<ReaderEvent> readerlist = new List<ReaderEvent>();
-        string line;
-        @* StreamReader sr = new StreamReader(); *@
-    } 
+        public string Date {get; set; } = "";
+        public string FacilityLocation {get; set; } = "";
+        public ReaderEvent(string line)
+        {
+        string[] words = line.Split(',');
+        Date = words[0];
+        FacilityLocation = words[2];
+        }
+           
+    }
 }
