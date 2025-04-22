@@ -30,9 +30,11 @@
     public string ErrorMessage { get; set; } = "";
     
     List<ReaderEvent> readerlist = new List<ReaderEvent>();
-
+    
     const int MAX_FILESIZE = 5000 * 1024; // 2 MB
+    private Dictionary<string, List<ReaderEvent>> dict = new Dictionary<string, List<ReaderEvent>>(); 
 
+    
     public async Task FileUploaded(InputFileChangeEventArgs e)
     {
        
@@ -86,16 +88,48 @@
 
             }
     }
+    public void AddToDict(List<ReaderEvent> reader)
+    {
+        foreach(ReaderEvent Revent in reader)
+        {
+            if(dict.ContainsKey(Revent.ID()))
+            {
+                List<ReaderEvent> r3 = dict[Revent.ID()];
+                r3.Add(Revent);
 
+            }
+            else
+            {
+                List<ReaderEvent> r2 = new List<ReaderEvent>();
+                    r2.Add(Revent);
+                dict.Add(Revent.ID(), r2);
+            }
+        }
+    }
     public class ReaderEvent
     {
         public string Date {get; set; } = "";
         public string FacilityLocation {get; set; } = "";
-        public ReaderEvent(string line)
+        public string IDHASH {get; set; } = "";
+        public string DEVID {get; set; }
+        public string MACHINE {get; set; }
+
+        public ReaderEvent(string line)                 
         {
         string[] words = line.Split(',');
         Date = words[0];
         FacilityLocation = words[2];
+        IDHASH = words[3];
+        DEVID = words[4];
+        MACHINE = words[5];
+        }
+
+        public string ID()
+        {
+            string uniqueID;
+            uniqueID = DEVID + MACHINE;
+            return uniqueID;
+
         }
            
     }
