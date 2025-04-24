@@ -18,6 +18,27 @@
     <div>Last modified: @LastModified</div>
 </div>
 
+
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Reader</th>
+                <th>count</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var kvp in dict)
+            {
+                <tr>
+                    <td>@kvp.Key</td>
+                    <td>@kvp.Value.Count</td>
+                    
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
 @if (!string.IsNullOrEmpty(ErrorMessage))
 {
     <div>Error: @ErrorMessage</div>
@@ -82,11 +103,15 @@
                     line = sr.ReadLine();
                 }
                 sr.Close();
+
+                AddToDict(readerlist);
             }
             catch
             {
 
             }
+
+
     }
     public void AddToDict(List<ReaderEvent> reader)
     {
@@ -113,6 +138,7 @@
         public string IDHASH {get; set; } = "";
         public string DEVID {get; set; }
         public string MACHINE {get; set; }
+
 
         public ReaderEvent(string line)                 
         {
